@@ -1,6 +1,6 @@
 {
-  "name": "stoplight-postman-to-openapi",
-  "version": "1.0.0",
+  "name": "@stoplight/postman-to-openapi-conversion",
+  "version": "1.0.1",
   "description": "Convert postman collection to OpenAPI spec, Forked for upgrading node engine.",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
