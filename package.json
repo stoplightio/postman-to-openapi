@@ -1,6 +1,6 @@
 {
   "name": "@stoplight/postman-to-openapi-conversion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert postman collection to OpenAPI spec, Forked for upgrading node engine.",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
@@ -55,7 +55,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "execa": "^5.1.1",
     "husky": "^7.0.4",
-    "mocha": "^10.2.0",
+    "mocha": "^11.3.0",
     "nyc": "^15.1.0",
     "typescript": "^4.9.4"
   },
@@ -66,6 +66,9 @@
   },
   "engines": {
     "node": ">=14 <24"
+  },
+  "overrides": {
+    "diff": "5.2.1"
   },
   "nyc": {
     "all": true,
