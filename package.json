@@ -71,7 +71,9 @@
     "diff": "8.0.4",
     "serialize-javascript": "7.0.4",
     "brace-expansion": "5.0.5",
-    "minimatch": "9.0.9"
+    "minimatch": "9.0.9",
+    "fast-uri": "3.1.2",
+    "js-yaml": "4.3.0"
   },
   "nyc": {
     "all": true,
@@ -94,7 +96,7 @@
   },
   "dependencies": {
     "commander": "^8.3.0",
-    "js-yaml": "^4.1.0",
+    "js-yaml": "4.3.0",
     "jsonc-parser": "3.2.0",
     "lodash.camelcase": "^4.3.0",
     "marked": "^4.2.5",
