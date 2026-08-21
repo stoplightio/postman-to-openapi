@@ -77,7 +77,8 @@ describe('Cli specs', function () {
       equal(err.name, 'Error')
       equal(err.exitCode, 1)
       ok(err.stderr === 'Error: invalid "options" parameter -> Expected property name or \'}\' in JSON at position 6' ||
-      err.stderr === 'Error: invalid "options" parameter -> Unexpected token i in JSON at position 6')
+      err.stderr === 'Error: invalid "options" parameter -> Unexpected token i in JSON at position 6' ||
+      err.stderr === 'Error: invalid "options" parameter -> Expected property name or \'}\' in JSON at position 6 (line 2 column 5)')
       return true
     })
   })
